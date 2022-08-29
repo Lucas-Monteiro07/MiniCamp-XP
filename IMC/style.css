@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#peso, #altura {
+    margin: 5px;
+}
+
+.botao-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-family: 'Cabin';
+    background-color: black;
+    border: solid transparent;
+}
+
+.resultado-wrapper {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.faixa {
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.resultado {
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+}

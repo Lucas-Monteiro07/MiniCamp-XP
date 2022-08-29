@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.selected {
+    background-color: blueviolet;
+}
